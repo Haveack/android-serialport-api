@@ -37,7 +37,7 @@ public class SerialPortFinder {
 		Vector<File> mDevices = null;
 		public Vector<File> getDevices() {
 			if (mDevices == null) {
-				mDevices = new Vector<File>();
+				mDevices = new Vector<>();
 				File dev = new File("/dev");
 				File[] files = dev.listFiles();
 				int i;
@@ -101,7 +101,7 @@ public class SerialPortFinder {
 	}
 
 	public String[] getAllDevicesPath() {
-		Vector<String> devices = new Vector<String>();
+		Vector<String> devices = new Vector<>();
 		// Parse each driver
 		Iterator<Driver> itdriv;
 		try {
