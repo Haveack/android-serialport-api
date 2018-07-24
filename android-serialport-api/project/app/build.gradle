@@ -21,5 +21,24 @@ model {
                 proguardFiles.add(file('proguard-rules.txt'))
             }
         }
+
+//        getProperty("android").libraryVariants.all { variant ->
+//            if (variant.buildType.name.equals(com.android.builder.core.BuilderConstants.DEBUG)) {
+//                return; //skip debug builds
+//            }
+//            def name = variant.name
+//            def task = project.tasks.create "jar${name.capitalize()}", Jar
+//            task.dependsOn variant.javaCompile
+//            task.from variant.javaCompile.destinationDir
+//            task.exclude 'androoid_serialport_api/sample'
+//            task.archiveName name + ".jar"
+//            artifacts.add('archives', task);
+//        }
+
+
     }
+}
+
+dependencies {
+    compile project(':api')
 }
