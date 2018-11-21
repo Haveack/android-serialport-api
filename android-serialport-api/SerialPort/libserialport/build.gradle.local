@@ -1,0 +1,12 @@
+group = 'me.raid.serialport'
+version = '1.0.8'
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: "http://gitlab.91laiqian.cn:8081/artifactory/libs-release-local") {
+                authentication(userName: "xubs", password: "xubs!@123456")
+            }
+        }
+    }
+}

@@ -1,13 +1,3 @@
-*.iml
-.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-
 *.apk
 
 *.dex
@@ -64,5 +54,3 @@ captures/
 rm_build.sh
 
 output.json
-
-*.local

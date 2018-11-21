@@ -1,0 +1,3 @@
+D:/workspace/android/others/haveack/android-serialport-api/android-serialport-api/SerialPort/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+D:/workspace/android/others/haveack/android-serialport-api/android-serialport-api/SerialPort/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/serial_port.dir
+D:/workspace/android/others/haveack/android-serialport-api/android-serialport-api/SerialPort/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
